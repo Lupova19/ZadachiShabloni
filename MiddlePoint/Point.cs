@@ -34,10 +34,10 @@ namespace MiddlePoint
             double x2 = Convert.ToDouble(p2.X);
             double y2 = Convert.ToDouble(p2.Y);
 
-            double midX = (x1 + x2) / 2;
-            double midY = (y1 + y2) / 2;
+            double middlePointX = (x1 + x2) / 2;
+            double middlePointY = (y1 + y2) / 2;
 
-            return new Point<double>(midX, midY);
+            return new Point<double>(middlePointX, middlePointY);
         }
 
     }
