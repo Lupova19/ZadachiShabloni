@@ -13,9 +13,9 @@ namespace MiddlePoint
             Point<double> point1 = new Point<double>(2, 4);
             Point<double> point2 = new Point<double>(6, 8);
 
-            Point<double> midpoint = Point<double>.Midpoint(point1, point2);
+            Point<double> middlePoint = Point<double>.Midpoint(point1, point2);
 
-            Console.WriteLine($"The middle point is:({midpoint.X}, {midpoint.Y})");
+            Console.WriteLine($"The middle point is:({middlePoint.X}, {middlePoint.Y})");
         }
     }
 }
